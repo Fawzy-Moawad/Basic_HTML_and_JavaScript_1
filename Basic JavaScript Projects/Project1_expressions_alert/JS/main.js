@@ -7,13 +7,12 @@ var B = "concatenated"+"string"     //this to concatenated string and print it.
 document.write(B);
 var Family = "Moawad", Dad = "Arafa", Mom = "Doha", Daughter = "Fatma", Son = ("Mohamed" + "Ahmad" + "Fawzy");//this to creat a var and choose what to print from it.
 document.write(Dad);
-
-function myFunction() {         //this to concatenated strings and print it after you do the action wrote in html file.
-    var sentence = "I am Learning";
-    sentence += "a lot from this book!";
-    document.getElementById("concatenate").innerHTML = sentence;
-}
 function My__First_Function() {     //this function to make a button.
     var str = "This is the button text!";
     document.getElementById("Button_Text").innerHTML = str;
+}
+function myFunction_2() {       //this to concatenated strings and print it after you do the action wrote in html file.
+    var  sentence = "Land";
+     sentence += "Of history";
+    document.getElementById("concatenate").innerHTML = sentence;
 }
