@@ -1,5 +1,5 @@
 function addition() {
-    let add = 1+2;
+   let add = 1+2;
     document.getElementById("Add").innerHTML = "1 + 2 = " + add;
 }
 
