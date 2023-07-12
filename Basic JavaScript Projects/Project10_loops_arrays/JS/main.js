@@ -1,12 +1,12 @@
 //A function using a while loop
 function count_to_Ten() {
-    let Digit = "";
+    var Digit = "";
     let x = 1;
     while (x < 11) {
         Digit += "<br>" + x;
         x++;
     }
-document.getElementById("counring_to_Ten").innerHTML = Digit;
+    document.getElementById("Counting_to_Ten").innerHTML = Digit;
 }
 
 //A function using a for loop
