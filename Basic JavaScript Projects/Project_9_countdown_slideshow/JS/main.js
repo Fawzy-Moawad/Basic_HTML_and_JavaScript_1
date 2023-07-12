@@ -1,8 +1,8 @@
 //countdown timer function
 function countdown() {
     let seconds = document.getElementById("seconds").ariaValueMax;
-
-    functiontick() {
+}
+function tick() {
         seconds = seconds - 1;
         timer.innerhtml = seconds;
         if (seconds > 0) {
@@ -10,7 +10,6 @@ function countdown() {
         }else {
             alert("Time's up!");
         }
-    }
     tick();
 }
 //imag slideshow functions
