@@ -1,6 +1,6 @@
 //A function using a while loop
 function count_to_Ten() {
-    var Digit = "";
+    let Digit = "";
     let x = 1;
     while (x < 11) {
         Digit += "<br>" + x;
