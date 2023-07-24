@@ -12,9 +12,10 @@ function slice_Method() {
     document.getElementById("slice").innerHTML = section;
 }
 
+//Utilizing the .toString() Method
 function string_Method() {
     let myNumber = 999;
-    document.getElementById("ToString").innerHTML = myNumber.tostring();
+    document.getElementById("ToString").innerHTML = myNumber.toString();
 }
 
 function precision_Method() {
