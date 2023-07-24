@@ -23,7 +23,7 @@ let content = "";
 let y;
 function for_Loop() {
     for (y=0; y < Instruments.length; y++) {
-        content +[ Instruments[y]] + "<br>";
+        content += Instruments[y] + "<br>";
     }
     document.getElementById("List_of_Instruments").innerHTML = content;
 }
